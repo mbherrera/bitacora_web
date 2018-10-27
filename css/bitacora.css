@@ -1,0 +1,18 @@
+.cerrar_sesion {
+float:left; 
+width:100px;
+}
+.nuevo_registro {
+float:left; 
+background-color:red;
+}
+
+.descripcion {
+  position: static;
+  left:10px; top:10px;
+  width:  calc(100vw - 20px);      /* calc and viewport to the rescue */
+  height:430px;
+  resize: none;
+  overflow:scroll;
+  font-size:16px;
+}
